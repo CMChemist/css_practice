@@ -1,0 +1,43 @@
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: red;
+    animation-iteration-count: infinite;
+  }
+  
+  #ball_1 {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+  }
+  
+  #ball_2 {
+    background-color: green;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+  }
+  
+  #ball_3 {
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left: 60%;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes red {
+    0% {
+      top: 10px;
+    }
+    100% {
+      top: 350px;
+    }
+  }
