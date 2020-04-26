@@ -1,0 +1,34 @@
+a:link {
+  text-decoration: none;
+}
+
+#linkedin {
+  border-radius: 5px;
+  background-color: black;
+  font-family: arial;
+  font-size: 40px;
+  color: grey;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+}
+
+#linkedin:hover {
+  transform: scale(1.1);
+  animation-name: linkedin-icon;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes linkedin-icon {
+  100% {
+    background-color: #0077B5;
+    color: white;
+  }
+}
+
+
+
